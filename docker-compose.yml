@@ -6,7 +6,6 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./card_images:/app/card_images:ro
       - ./cards.json:/app/cards.json:ro
     environment:
       - PYTHONPATH=/app

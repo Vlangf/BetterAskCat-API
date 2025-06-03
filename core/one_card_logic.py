@@ -1,5 +1,5 @@
 import random
-from main import cards
+from core.cards_loader import cards
 
 
 async def get_random_card():

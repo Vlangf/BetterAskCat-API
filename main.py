@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from api.batteraskcat_api import router as batteraskcat_router
 
-app = FastAPI()
+app = FastAPI(docs_url=None, redoc_url=None)
 
 # Include the API router
 app.include_router(batteraskcat_router)

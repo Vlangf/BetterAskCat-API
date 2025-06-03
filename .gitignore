@@ -9,7 +9,7 @@ wheels/
 # Virtual environments
 .venv
 card_images/
-cards.json
+cards.py
 
 # macOS
 .DS_Store

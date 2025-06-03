@@ -6,7 +6,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./cards.json:/app/cards.json:ro
+      - ./cards.py:/app/cards.py:ro
     environment:
       - PYTHONPATH=/app
     restart: unless-stopped

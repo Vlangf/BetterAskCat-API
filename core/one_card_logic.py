@@ -6,8 +6,7 @@ async def get_random_card():
     card_types = list(cards.keys())
     card_type = random.choice(card_types)
     card_name = random.choice(list(cards[card_type].keys()))
-    card_data = cards[card_name]
-    return card_name, card_data
+    return card_name, cards[card_type][card_name]
 
 
 async def one_card():
